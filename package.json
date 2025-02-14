@@ -53,195 +53,195 @@
 		"viewsContainers": {
 			"activitybar": [
 				{
-					"id": "roo-cline-ActivityBar",
-					"title": "Roo Code",
+					"id": "neuronlink-ca-ActivityBar",
+					"title": "Neuron Link",
 					"icon": "assets/icons/neuronlink.png"
 				}
 			]
 		},
 		"views": {
-			"roo-cline-ActivityBar": [
+			"neuronlink-ca-ActivityBar": [
 				{
 					"type": "webview",
-					"id": "roo-cline.SidebarProvider",
+					"id": "neuronlink-ca.SidebarProvider",
 					"name": ""
 				}
 			]
 		},
 		"commands": [
 			{
-				"command": "roo-cline.plusButtonClicked",
+				"command": "neuronlink-ca.plusButtonClicked",
 				"title": "New Task",
 				"icon": "$(add)"
 			},
 			{
-				"command": "roo-cline.mcpButtonClicked",
+				"command": "neuronlink-ca.mcpButtonClicked",
 				"title": "MCP Servers",
 				"icon": "$(server)"
 			},
 			{
-				"command": "roo-cline.promptsButtonClicked",
+				"command": "neuronlink-ca.promptsButtonClicked",
 				"title": "Prompts",
 				"icon": "$(notebook)"
 			},
 			{
-				"command": "roo-cline.historyButtonClicked",
+				"command": "neuronlink-ca.historyButtonClicked",
 				"title": "History",
 				"icon": "$(history)"
 			},
 			{
-				"command": "roo-cline.popoutButtonClicked",
+				"command": "neuronlink-ca.popoutButtonClicked",
 				"title": "Open in Editor",
 				"icon": "$(link-external)"
 			},
 			{
-				"command": "roo-cline.settingsButtonClicked",
+				"command": "neuronlink-ca.settingsButtonClicked",
 				"title": "Settings",
 				"icon": "$(settings-gear)"
 			},
 			{
-				"command": "roo-cline.helpButtonClicked",
+				"command": "neuronlink-ca.helpButtonClicked",
 				"title": "Documentation",
 				"icon": "$(question)"
 			},
 			{
-				"command": "roo-cline.openInNewTab",
+				"command": "neuronlink-ca.openInNewTab",
 				"title": "Open In New Tab",
-				"category": "Roo Code"
+				"category": "Neuron Link"
 			},
 			{
-				"command": "roo-cline.explainCode",
-				"title": "Roo Code: Explain Code",
-				"category": "Roo Code"
+				"command": "neuronlink-ca.explainCode",
+				"title": "Neuron Link: Explain Code",
+				"category": "Neuron Link"
 			},
 			{
-				"command": "roo-cline.fixCode",
-				"title": "Roo Code: Fix Code",
-				"category": "Roo Code"
+				"command": "neuronlink-ca.fixCode",
+				"title": "Neuron Link: Fix Code",
+				"category": "Neuron Link"
 			},
 			{
-				"command": "roo-cline.improveCode",
-				"title": "Roo Code: Improve Code",
-				"category": "Roo Code"
+				"command": "neuronlink-ca.improveCode",
+				"title": "Neuron Link: Improve Code",
+				"category": "Neuron Link"
 			},
 			{
-				"command": "roo-cline.addToContext",
-				"title": "Roo Code: Add To Context",
-				"category": "Roo Code"
+				"command": "neuronlink-ca.addToContext",
+				"title": "Neuron Link: Add To Context",
+				"category": "Neuron Link"
 			},
 			{
-				"command": "roo-cline.terminalAddToContext",
-				"title": "Roo Code: Add Terminal Content to Context",
+				"command": "neuronlink-ca.terminalAddToContext",
+				"title": "Neuron Link: Add Terminal Content to Context",
 				"category": "Terminal"
 			},
 			{
-				"command": "roo-cline.terminalFixCommand",
-				"title": "Roo Code: Fix This Command",
+				"command": "neuronlink-ca.terminalFixCommand",
+				"title": "Neuron Link: Fix This Command",
 				"category": "Terminal"
 			},
 			{
-				"command": "roo-cline.terminalExplainCommand",
-				"title": "Roo Code: Explain This Command",
+				"command": "neuronlink-ca.terminalExplainCommand",
+				"title": "Neuron Link: Explain This Command",
 				"category": "Terminal"
 			},
 			{
-				"command": "roo-cline.terminalFixCommandInCurrentTask",
-				"title": "Roo Code: Fix This Command (Current Task)",
+				"command": "neuronlink-ca.terminalFixCommandInCurrentTask",
+				"title": "Neuron Link: Fix This Command (Current Task)",
 				"category": "Terminal"
 			},
 			{
-				"command": "roo-cline.terminalExplainCommandInCurrentTask",
-				"title": "Roo Code: Explain This Command (Current Task)",
+				"command": "neuronlink-ca.terminalExplainCommandInCurrentTask",
+				"title": "Neuron Link: Explain This Command (Current Task)",
 				"category": "Terminal"
 			}
 		],
 		"menus": {
 			"editor/context": [
 				{
-					"command": "roo-cline.explainCode",
+					"command": "neuronlink-ca.explainCode",
 					"when": "editorHasSelection",
-					"group": "Roo Code@1"
+					"group": "Neuron Link@1"
 				},
 				{
-					"command": "roo-cline.fixCode",
+					"command": "neuronlink-ca.fixCode",
 					"when": "editorHasSelection",
-					"group": "Roo Code@2"
+					"group": "Neuron Link@2"
 				},
 				{
-					"command": "roo-cline.improveCode",
+					"command": "neuronlink-ca.improveCode",
 					"when": "editorHasSelection",
-					"group": "Roo Code@3"
+					"group": "Neuron Link@3"
 				},
 				{
-					"command": "roo-cline.addToContext",
+					"command": "neuronlink-ca.addToContext",
 					"when": "editorHasSelection",
-					"group": "Roo Code@4"
+					"group": "Neuron Link@4"
 				}
 			],
 			"terminal/context": [
 				{
-					"command": "roo-cline.terminalAddToContext",
-					"group": "Roo Code@1"
+					"command": "neuronlink-ca.terminalAddToContext",
+					"group": "Neuron Link@1"
 				},
 				{
-					"command": "roo-cline.terminalFixCommand",
-					"group": "Roo Code@2"
+					"command": "neuronlink-ca.terminalFixCommand",
+					"group": "Neuron Link@2"
 				},
 				{
-					"command": "roo-cline.terminalExplainCommand",
-					"group": "Roo Code@3"
+					"command": "neuronlink-ca.terminalExplainCommand",
+					"group": "Neuron Link@3"
 				},
 				{
-					"command": "roo-cline.terminalFixCommandInCurrentTask",
-					"group": "Roo Code@5"
+					"command": "neuronlink-ca.terminalFixCommandInCurrentTask",
+					"group": "Neuron Link@5"
 				},
 				{
-					"command": "roo-cline.terminalExplainCommandInCurrentTask",
-					"group": "Roo Code@6"
+					"command": "neuronlink-ca.terminalExplainCommandInCurrentTask",
+					"group": "Neuron Link@6"
 				}
 			],
 			"view/title": [
 				{
-					"command": "roo-cline.plusButtonClicked",
+					"command": "neuronlink-ca.plusButtonClicked",
 					"group": "navigation@1",
-					"when": "view == roo-cline.SidebarProvider"
+					"when": "view == neuronlink-ca.SidebarProvider"
 				},
 				{
-					"command": "roo-cline.promptsButtonClicked",
+					"command": "neuronlink-ca.promptsButtonClicked",
 					"group": "navigation@2",
-					"when": "view == roo-cline.SidebarProvider"
+					"when": "view == neuronlink-ca.SidebarProvider"
 				},
 				{
-					"command": "roo-cline.mcpButtonClicked",
+					"command": "neuronlink-ca.mcpButtonClicked",
 					"group": "navigation@3",
-					"when": "view == roo-cline.SidebarProvider"
+					"when": "view == neuronlink-ca.SidebarProvider"
 				},
 				{
-					"command": "roo-cline.historyButtonClicked",
+					"command": "neuronlink-ca.historyButtonClicked",
 					"group": "navigation@4",
-					"when": "view == roo-cline.SidebarProvider"
+					"when": "view == neuronlink-ca.SidebarProvider"
 				},
 				{
-					"command": "roo-cline.popoutButtonClicked",
+					"command": "neuronlink-ca.popoutButtonClicked",
 					"group": "navigation@5",
-					"when": "view == roo-cline.SidebarProvider"
+					"when": "view == neuronlink-ca.SidebarProvider"
 				},
 				{
-					"command": "roo-cline.settingsButtonClicked",
+					"command": "neuronlink-ca.settingsButtonClicked",
 					"group": "navigation@6",
-					"when": "view == roo-cline.SidebarProvider"
+					"when": "view == neuronlink-ca.SidebarProvider"
 				},
 				{
-					"command": "roo-cline.helpButtonClicked",
+					"command": "neuronlink-ca.helpButtonClicked",
 					"group": "navigation@7",
-					"when": "view == roo-cline.SidebarProvider"
+					"when": "view == neuronlink-ca.SidebarProvider"
 				}
 			]
 		},
 		"configuration": {
-			"title": "Roo Code",
+			"title": "Neuron Link",
 			"properties": {
-				"roo-cline.allowedCommands": {
+				"neuronlink-ca.allowedCommands": {
 					"type": "array",
 					"items": {
 						"type": "string"
@@ -256,7 +256,7 @@
 					],
 					"description": "Commands that can be auto-executed when 'Always approve execute operations' is enabled"
 				},
-				"roo-cline.vsCodeLmModelSelector": {
+				"neuronlink-ca.vsCodeLmModelSelector": {
 					"type": "object",
 					"properties": {
 						"vendor": {

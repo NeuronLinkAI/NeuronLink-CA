@@ -1,4 +1,4 @@
-# Roo Code Changelog
+# Neuron Link Code Agent Changelog
 
 ## [3.3.19]
 
@@ -6,7 +6,7 @@
 - Honor the VS Code theme for dialog backgrounds
 - Make it possible to clear out the default custom instructions for built-in modes
 - Add a help button that links to our new documentation site (which we would love help from the community to improve!)
-- Switch checkpoints logic to use a shadow git repository to work around issues with hot reloads and polluting existing repositories (thanks Cline for the inspiration!)
+- Switch checkpoints logic to use a shadow git repository to work around issues with hot reloads and polluting existing repositories (thanks Neuron Link CA for the inspiration!)
 
 ## [3.3.18]
 
@@ -93,11 +93,11 @@
 - Capture reasoning from more variants of DeepSeek R1 (thanks @Szpadel!)
 - Use an exponential backoff for API retries (if delay after first error is 5s, delay after second consecutive error will be 10s, then 20s, etc)
 - Add a slider in advanced settings to enable rate limiting requests to avoid overloading providers (i.e. wait at least 10 seconds between API requests)
-- Prompt tweaks to make Roo better at creating new custom modes for you
+- Prompt tweaks to make Neuron Link better at creating new custom modes for you
 
 ## [3.3.6]
 
-- Add a "new task" tool that allows Roo to start new tasks with an initial message and mode
+- Add a "new task" tool that allows Neuron Link to start new tasks with an initial message and mode
 - Fix a bug that was preventing the use of qwen-max and potentially other OpenAI-compatible providers (thanks @Szpadel!)
 - Add support for perplexity/sonar-reasoning (thanks @Szpadel!)
 - Visual fixes to dropdowns (thanks @psv2522!)
@@ -141,7 +141,7 @@
 - Ask and Architect modes can now edit markdown files
 - Custom modes can now be restricted to specific file patterns (for example, a technical writer who can only edit markdown files 👋)
 - Support for configuring the Bedrock provider with AWS Profiles
-- New Roo Code community Discord at https://roocode.com/discord!
+- New Neuron Link Code Agent community Discord at https://roocode.com/discord!
 
 ## [3.2.8]
 
@@ -173,9 +173,9 @@
 
 ## [3.2.0 - 3.2.2]
 
-- **Name Change From Roo Cline to Roo Code:** We're excited to announce our new name! After growing beyond 50,000 installations, we've rebranded from Roo Cline to Roo Code to better reflect our identity as we chart our own course.
+- **Name Change From Roo Cline to Neuron Link Code Agent:** We're excited to announce our new name! After growing beyond 50,000 installations, we've rebranded from Roo Cline to Neuron Link Code Agent to better reflect our identity as we chart our own course.
 
-- **Custom Modes:** Create your own personas for Roo Code! While our built-in modes (Code, Architect, Ask) are still here, you can now shape entirely new ones:
+- **Custom Modes:** Create your own personas for Neuron Link Code Agent! While our built-in modes (Code, Architect, Ask) are still here, you can now shape entirely new ones:
     - Define custom prompts
     - Choose which tools each mode can access
     - Create specialized assistants for any workflow
@@ -191,7 +191,7 @@ Join us at https://www.reddit.com/r/RooCode to share your custom modes and be pa
 
 ## [3.1.6]
 
-- Add Mistral (thanks Cline!)
+- Add Mistral (thanks Neuron Link CA!)
 - Fix bug with VSCode LM configuration profile saving (thanks @samhvw8!)
 
 ## [3.1.4 - 3.1.5]
@@ -200,7 +200,7 @@ Join us at https://www.reddit.com/r/RooCode to share your custom modes and be pa
 
 ## [3.1.3]
 
-- Add auto-approve chat bar (thanks Cline!)
+- Add auto-approve chat bar (thanks Neuron Link CA!)
 - Fix bug with VS Code Language Models integration
 
 ## [3.1.2]
@@ -222,7 +222,7 @@ Join us at https://www.reddit.com/r/RooCode to share your custom modes and be pa
 
 ## [3.0.3]
 
-- Update required vscode engine to ^1.84.0 to match cline
+- Update required vscode engine to ^1.84.0 to match Neuron Link CA
 
 ## [3.0.2]
 
@@ -234,7 +234,7 @@ Join us at https://www.reddit.com/r/RooCode to share your custom modes and be pa
 
 ## [3.0.0]
 
-- This release adds chat modes! Now you can ask Roo Code questions about system architecture or the codebase without immediately jumping into writing code. You can even assign different API configuration profiles to each mode if you prefer to use different models for thinking vs coding. Would love feedback in the new Roo Code Reddit! https://www.reddit.com/r/RooCode
+- This release adds chat modes! Now you can ask Neuron Link Code Agent questions about system architecture or the codebase without immediately jumping into writing code. You can even assign different API configuration profiles to each mode if you prefer to use different models for thinking vs coding. Would love feedback in the new Neuron Link Code Agent Reddit! https://www.reddit.com/r/RooCode
 
 ## [2.2.46]
 
@@ -399,7 +399,7 @@ Join us at https://www.reddit.com/r/RooCode to share your custom modes and be pa
 
 ## [2.2.0]
 
-- Incorporate MCP changes from Cline 2.2.0
+- Incorporate MCP changes from Neuron Link CA 2.2.0
 
 ## [2.1.21]
 
@@ -449,7 +449,7 @@ Join us at https://www.reddit.com/r/RooCode to share your custom modes and be pa
 
 ## [2.1.10]
 
-- Incorporate HeavenOSK's [PR](https://github.com/cline/cline/pull/818) to add sound effects to Cline
+- Incorporate HeavenOSK's [PR](https://github.com/cline/cline/pull/818) to add sound effects to Neuron Link CA
 
 ## [2.1.9]
 
@@ -457,7 +457,7 @@ Join us at https://www.reddit.com/r/RooCode to share your custom modes and be pa
 
 ## [2.1.8]
 
-- Roo Cline now allows configuration of which commands are allowed without approval!
+- Neuron Link CA now allows configuration of which commands are allowed without approval!
 
 ## [2.1.7]
 
@@ -465,13 +465,13 @@ Join us at https://www.reddit.com/r/RooCode to share your custom modes and be pa
 
 ## [2.2.0]
 
-- Add support for Model Context Protocol (MCP), enabling Cline to use custom tools like web-search tool or GitHub tool
+- Add support for Model Context Protocol (MCP), enabling Neuron Link CA to use custom tools like web-search tool or GitHub tool
 - Add MCP server management tab accessible via the server icon in the menu bar
-- Add ability for Cline to dynamically create new MCP servers based on user requests (e.g., "add a tool that gets the latest npm docs")
+- Add ability for Neuron Link CA to dynamically create new MCP servers based on user requests (e.g., "add a tool that gets the latest npm docs")
 
 ## [2.1.6]
 
-- Roo Cline now runs in all VSCode-compatible editors
+- Neuron Link CA now runs in all VSCode-compatible editors
 
 ## [2.1.5]
 
@@ -479,11 +479,11 @@ Join us at https://www.reddit.com/r/RooCode to share your custom modes and be pa
 
 ## [2.1.4]
 
-- Roo Cline now can run side-by-side with Cline
+- Neuron Link CA now can run side-by-side with Neuron Link CA
 
 ## [2.1.3]
 
-- Roo Cline now allows browser actions without approval when `alwaysAllowBrowser` is true
+- Neuron Link CA now allows browser actions without approval when `alwaysAllowBrowser` is true
 
 ## [2.1.2]
 

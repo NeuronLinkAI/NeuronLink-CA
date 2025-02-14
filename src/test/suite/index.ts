@@ -46,8 +46,8 @@ export async function run(): Promise<void> {
 		)
 
 		globalThis.panel = vscode.window.createWebviewPanel(
-			"roo-cline.SidebarProvider",
-			"Roo Code",
+			"neuronlink-ca.SidebarProvider",
+			"Neuron Link",
 			vscode.ViewColumn.One,
 			{
 				enableScripts: true,
