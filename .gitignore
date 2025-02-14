@@ -1,0 +1,30 @@
+dist
+out
+out-*
+node_modules
+coverage/
+
+.DS_Store
+
+# Builds
+bin/
+roo-cline-*.vsix
+
+# Local prompts and rules
+/local-prompts
+
+# Test environment
+.test_env
+.vscode-test/
+
+# Docs
+docs/_site/
+
+# Dotenv
+.env.integration
+
+#Local lint config
+.eslintrc.local.json
+
+#Logging
+logs
