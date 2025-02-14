@@ -1,10 +1,10 @@
 {
-	"name": "roo-cline",
-	"displayName": "Roo Code (prev. Roo Cline)",
-	"description": "A VS Code plugin that enhances coding with AI-powered automation, multi-model support, and experimental features.",
-	"publisher": "RooVeterinaryInc",
-	"version": "3.3.19",
-	"icon": "assets/icons/rocket.png",
+	"name": "NeuronLink-CA",
+	"displayName": "Neuron Link",
+	"description": "Interconnected AI Instances, Powered by Blockchain and Agent-Based Reasoning, Shaping a Scalable Route to ASI.",
+	"publisher": "NeuronLink",
+	"version": "1.0.1",
+	"icon": "assets/icons/neuronlink.png",
 	"galleryBanner": {
 		"color": "#617A91",
 		"theme": "dark"
@@ -17,9 +17,9 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/RooVetGit/Roo-Code"
+		"url": "https://github.com/NeuronLinkAI/NeuronLink-CA"
 	},
-	"homepage": "https://github.com/RooVetGit/Roo-Code",
+	"homepage": "https://github.com/NeuronLinkAI/NeuronLink-CA",
 	"categories": [
 		"AI",
 		"Chat",
@@ -55,7 +55,7 @@
 				{
 					"id": "roo-cline-ActivityBar",
 					"title": "Roo Code",
-					"icon": "$(rocket)"
+					"icon": "assets/icons/neuronlink.png"
 				}
 			]
 		},
