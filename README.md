@@ -2,28 +2,26 @@
   <img src="assets/images/neuronlink-label.png" alt="NeuronLink Label">
 </div>
 
-<iframe src="animated.svg" width="200" height="200" frameBorder="0"></iframe>
 <div align="center">
-  <h2>Join the Neuron Link or Neuron Link code agent, Neuron Link CA Community</h2>
-  <p>Connect with developers, contribute ideas, and stay ahead with the latest AI-powered coding tools.</p>
+  <h2>Neuron Link Code Agent</h2>
+  <p>Interconnected AI Instances, Powered by Blockchain and Agent-Based Reasoning, Shaping a Scalable Route to ASI.
+</p>
   
   <a href="https://discord.gg/neuronlink" target="_blank"><img src="https://img.shields.io/badge/Join%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Join Discord" height="60"></a>
   <a href="https://www.reddit.com/r/NeuronLink/" target="_blank"><img src="https://img.shields.io/badge/Join%20Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white" alt="Join Reddit" height="60"></a>
   
 </div>
-<br>
-<br>
 
 <div align="center">
-<h1>Neuron Link or Neuron Link code agent, Neuron Link CA (prev. Roo Cline)</h1>
+<h1>Neuron Link Code Agent Preview</h1>
 
 <a href="https://marketplace.visualstudio.com/items?itemName=NeuronLink.NeuronLink-CA" target="_blank"><img src="https://img.shields.io/badge/Download%20on%20VS%20Marketplace-blue?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="Download on VS Marketplace"></a>
 <a href="https://github.com/NeuronLinkAI/NeuronLink-CA/discussions/categories/feature-requests?discussions_q=is%3Aopen+category%3A%22Feature+Requests%22+sort%3Atop" target="_blank"><img src="https://img.shields.io/badge/Feature%20Requests-yellow?style=for-the-badge" alt="Feature Requests"></a>
-<a href="https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.roo-cline&ssr=false#review-details" target="_blank"><img src="https://img.shields.io/badge/Rate%20%26%20Review-green?style=for-the-badge" alt="Rate & Review"></a>
+<a href="https://marketplace.visualstudio.com/items?itemName=NeuronLink.NeuronLink-CA&ssr=false#review-details" target="_blank"><img src="https://img.shields.io/badge/Rate%20%26%20Review-green?style=for-the-badge" alt="Rate & Review"></a>
 
 </div>
 
-**Neuron Link or Neuron Link code agent, Neuron Link CA** is an AI-powered **autonomous coding agent** that lives in your editor. It can:
+**Neuron Link Code Agent, Neuron Link CA** is an AI-powered **autonomous coding agent** that lives in your editor. It can:
 
 - Communicate in natural language
 - Read and write files directly in your workspace
@@ -49,7 +47,7 @@ Neuron Link or Neuron Link code agent, Neuron Link CA now integrates directly wi
 ### Enhanced Mode Capabilities
 
 - **Markdown Editing**: Addressing one of the most requested features, Ask and Architect modes can now create and edit markdown files!
-- **Custom File Restrictions**: In general, custom modes can now be restricted to specific file patterns (for example, a technical writer who can only edit markdown files 👋). There's no UI for this yet, but who needs that when you can just ask Roo to set it up for you?
+- **Custom File Restrictions**: In general, custom modes can now be restricted to specific file patterns (for example, a technical writer who can only edit markdown files 👋). There's no UI for this yet, but who needs that when you can just ask Neuron Link CD to set it up for you?
 - **Self-Initiated Mode Switching**: Modes can intelligently request to switch between each other based on the task at hand. For instance, Code mode might request to switch to Test Engineer mode once it's ready to write tests.
 
 ### Join Our Discord!
@@ -61,11 +59,7 @@ We've launched a new Discord community! Join us at [https://discord.gg/neuronlin
 - Connect with other Neuron Link or Neuron Link code agent, Neuron Link CA users
 - Stay updated on the latest features
 
-## New in 3.2: Introducing Custom Modes, plus rebranding from Roo Cline → Neuron Link or Neuron Link code agent, Neuron Link CA! 🚀
-
-### Introducing Neuron Link or Neuron Link code agent, Neuron Link CA
-
-Our biggest update yet is here - we're officially changing our name from Roo Cline to Neuron Link or Neuron Link code agent, Neuron Link CA! After growing beyond 50,000 installations across VS Marketplace and Open VSX, we're ready to chart our own course. Our heartfelt thanks to everyone in the Cline community who helped us reach this milestone.
+## New in 3.2: Introducing Custom Modes
 
 ### Custom Modes
 
@@ -76,9 +70,9 @@ To mark this new chapter, we're introducing the power to shape Neuron Link or Ne
 - UI/UX Designers who craft beautiful, accessible interfaces
 - Code Reviewers who ensure quality and maintainability
 
-The best part is that Roo can help you create these new modes! Just type "Create a new mode for <X>" in the chat to get started, and go into the Prompts tab or (carefully) edit the JSON representation to customize the prompt and allowed tools to your liking.
+The best part is that Neuron Link can help you create these new modes! Just type "Create a new mode for <X>" in the chat to get started, and go into the Prompts tab or (carefully) edit the JSON representation to customize the prompt and allowed tools to your liking.
 
-We can't wait to hear more about what you build and how we can continue to evolve the Neuron Link or Neuron Link code agent, Neuron Link CA platform to support you. Please join us in our new https://www.reddit.com/r/RooCode subreddit to share your custom modes and be part of our next chapter. 🚀
+We can't wait to hear more about what you build and how we can continue to evolve the Neuron Link or Neuron Link code agent, Neuron Link CA platform to support you. Please join us in our new https://www.reddit.com/r/NeuronLink/ subreddit to share your custom modes and be part of our next chapter. 🚀
 
 ## New in 3.1: Chat Mode Prompt Customization & Prompt Enhancements
 
@@ -94,11 +88,11 @@ The second big feature in this release is a complete revamp of **prompt enhancem
 
 Whether you’re using GPT-4, other APIs, or switching configurations, this gives you total control over how your prompts are optimized.
 
-As always, we’d love to hear your thoughts and ideas! What features do you want to see in **v3.2**? Drop by https://www.reddit.com/r/roocline and join the discussion - we're building Roo Cline together. 🚀
+As always, we’d love to hear your thoughts and ideas! What features do you want to see in **v3.2**? Drop by https://www.reddit.com/r/NeuronLink/ and join the discussion - we're building Neuron Link together. 🚀
 
 ## New in 3.0 - Chat Modes!
 
-You can now choose between different prompts for Roo Cline to better suit your workflow. Here’s what’s available:
+You can now choose between different prompts for Neuron Link to better suit your workflow. Here’s what’s available:
 
 - **Code:** (existing behavior) The default mode where Cline helps you write code and execute tasks.
 
@@ -229,7 +223,7 @@ Help Neuron Link or Neuron Link code agent, Neuron Link CA focus on the most rel
 Neuron Link or Neuron Link code agent, Neuron Link CA is available on:
 
 - **[VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=NeuronLink.NeuronLink-CA)**
-- **[Open-VSX](https://open-vsx.org/extension/RooVeterinaryInc/roo-cline)**
+- **[Open-VSX](https://open-vsx.org/extension/NeuronLink/NeuronLink-CA)**
 
 1. **Search “Neuron Link or Neuron Link code agent, Neuron Link CA”** in your editor’s Extensions panel to install directly.
 2. Or grab the `.vsix` file from Marketplace / Open-VSX and **drag-and-drop** into your editor.
@@ -256,7 +250,7 @@ Neuron Link or Neuron Link code agent, Neuron Link CA is available on:
     - A `.vsix` file will appear in the `bin/` directory.
 4. **Install** the `.vsix` manually if desired:
     ```bash
-    code --install-extension bin/roo-code-4.0.0.vsix
+    code --install-extension bin/NeuronLink-CA-1.0.0.vsix
     ```
 5. **Start the webview (Vite/React app with HMR)**:
     ```bash
@@ -271,12 +265,6 @@ We use [changesets](https://github.com/changesets/changesets) for versioning and
 
 ---
 
-## Disclaimer
-
-**Please note** that Roo Veterinary, Inc does **not** make any representations or warranties regarding any code, models, or other tools provided or made available in connection with Neuron Link or Neuron Link code agent, Neuron Link CA, any associated third-party tools, or any resulting outputs. You assume **all risks** associated with the use of any such tools or outputs; such tools are provided on an **"AS IS"** and **"AS AVAILABLE"** basis. Such risks may include, without limitation, intellectual property infringement, cyber vulnerabilities or attacks, bias, inaccuracies, errors, defects, viruses, downtime, property loss or damage, and/or personal injury. You are solely responsible for your use of any such tools or outputs (including, without limitation, the legality, appropriateness, and results thereof).
-
----
-
 ## Contributing
 
 We love community contributions! Here’s how to get involved:
@@ -284,14 +272,14 @@ We love community contributions! Here’s how to get involved:
 1. **Check Issues & Requests**: See [open issues](https://github.com/NeuronLinkAI/NeuronLink-CA/issues) or [feature requests](https://github.com/NeuronLinkAI/NeuronLink-CA/discussions/categories/feature-requests).
 2. **Fork & branch** off `main`.
 3. **Submit a Pull Request** once your feature or fix is ready.
-4. **Join** our [Reddit community](https://www.reddit.com/r/NeuronLink/) and [Discord](https://roocode.com/discord) for feedback, tips, and announcements.
+4. **Join** our [Reddit community](https://www.reddit.com/r/NeuronLink/) and [Discord](discord.gg/neuronlink) for feedback, tips, and announcements.
 
 ---
 
 ## License
 
-[Apache 2.0 © 2025 Roo Veterinary, Inc.](./LICENSE)
+[Apache 2.0 © 2025 Neuron Link Labs.](./LICENSE)
 
 ---
 
-**Enjoy Neuron Link or Neuron Link code agent, Neuron Link CA!** Whether you keep it on a short leash or let it roam autonomously, we can’t wait to see what you build. If you have questions or feature ideas, drop by our [Reddit community](https://www.reddit.com/r/NeuronLink/) or [Discord](https://roocode.com/discord). Happy coding!
+**Enjoy Neuron Link or Neuron Link code agent, Neuron Link CA!** Whether you keep it on a short leash or let it roam autonomously, we can’t wait to see what you build. If you have questions or feature ideas, drop by our [Reddit community](https://www.reddit.com/r/NeuronLink/) or [Discord](discord.gg/neuronlink). Happy coding!
