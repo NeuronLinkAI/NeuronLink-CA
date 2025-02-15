@@ -22,7 +22,7 @@ const WelcomeView = () => {
 
 	return (
 		<div className="flex flex-col min-h-screen px-0 pb-5">
-			<h2>Hi, I'm Roo!</h2>
+			<h2>Bee Boop! I'm Neuron Link CA, here to help!</h2>
 			<p>
 				I can do all kinds of tasks thanks to the latest breakthroughs in agentic coding capabilities and access
 				to tools that let me create & edit files, explore complex projects, use the browser, and execute

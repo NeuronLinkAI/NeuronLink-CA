@@ -139,8 +139,8 @@ export const GlobalFileNames = {
 }
 
 export class ClineProvider implements vscode.WebviewViewProvider {
-	public static readonly sideBarId = "roo-cline.SidebarProvider" // used in package.json as the view's id. This value cannot be changed due to how vscode caches views based on their id, and updating the id would break existing instances of the extension.
-	public static readonly tabPanelId = "roo-cline.TabPanelProvider"
+	public static readonly sideBarId = "neuronlink-ca.SidebarProvider" // used in package.json as the view's id. This value cannot be changed due to how vscode caches views based on their id, and updating the id would break existing instances of the extension.
+	public static readonly tabPanelId = "neuronlink-ca.TabPanelProvider"
 	private static activeInstances: Set<ClineProvider> = new Set()
 	private disposables: vscode.Disposable[] = []
 	private view?: vscode.WebviewView | vscode.WebviewPanel
@@ -148,7 +148,7 @@ export class ClineProvider implements vscode.WebviewViewProvider {
 	private cline?: Cline
 	private workspaceTracker?: WorkspaceTracker
 	protected mcpHub?: McpHub // Change from private to protected
-	private latestAnnouncementId = "jan-21-2025-custom-modes" // update to some unique identifier when we add a new announcement
+	private latestAnnouncementId = "feb-14-2025-rebrand" // update to some unique identifier when we add a new announcement
 	configManager: ConfigManager
 	customModesManager: CustomModesManager
 

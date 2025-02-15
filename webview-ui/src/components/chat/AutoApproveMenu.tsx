@@ -226,8 +226,8 @@ const AutoApproveMenu = ({ style }: AutoApproveMenuProps) => {
 							color: "var(--vscode-descriptionForeground)",
 							fontSize: "12px",
 						}}>
-						Auto-approve allows Roo Code to perform actions without asking for permission. Only enable for
-						actions you fully trust.
+						Auto-approve allows Neuron Link CA to perform actions without asking for permission. Only enable
+						for actions you fully trust.
 					</div>
 					{actions.map((action) => (
 						<div key={action.id} style={{ margin: "6px 0" }}>
