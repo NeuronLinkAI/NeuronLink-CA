@@ -2654,7 +2654,7 @@ export class ClineProvider implements vscode.WebviewViewProvider {
 				apiProvider = "anthropic"
 			} else {
 				// New users should default to openrouter
-				apiProvider = "openrouter"
+				apiProvider = "gemini"
 			}
 		}
 
