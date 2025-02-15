@@ -23,11 +23,11 @@ const WelcomeView = () => {
 	return (
 		<div className="flex flex-col min-h-screen px-0 pb-5">
 			<img
-				src="../../../assets/icons/neuronlink.png"
+				src="../../../../assets/icons/neuronlink.png"
 				alt="Neuron Link Logo"
 				style={{ width: "200px", margin: "0 auto", display: "block" }}
 			/>
-			<h2>Bee Boop! I'm Neuron Link CA, here to help!</h2>
+			<h2>Welcome to Neuron Link Code Agent, here to help!</h2>
 			<p>
 				If you are new here, we highly recommend starting with the Gemini 2.0 Pro Exp model. We believe it is
 				the most powerful and performant model currently available for coding (even surpassing Claude Sonet).
