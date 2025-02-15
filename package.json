@@ -3,7 +3,7 @@
 	"displayName": "Neuron Link",
 	"description": "Interconnected AI Instances, Powered by Blockchain and Agent-Based Reasoning, Shaping a Scalable Route to ASI.",
 	"publisher": "NeuronLink",
-	"version": "1.0.11",
+	"version": "1.0.12",
 	"icon": "assets/icons/black_neuronlink.png",
 	"galleryBanner": {
 		"color": "#617A91",
