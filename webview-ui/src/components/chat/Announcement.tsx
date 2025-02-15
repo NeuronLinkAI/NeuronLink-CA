@@ -31,15 +31,15 @@ const Announcement = ({ version, hideAnnouncement }: AnnouncementProps) => {
 			<h2 style={{ margin: "0 0 8px" }}>🎉{"  "}Introducing Neuron Link Code Agent 3.2</h2>
 
 			<p style={{ margin: "5px 0px" }}>
-				Our biggest update yet is here - we're officially changing our name from Roo Cline to Neuron Link Code
-				Agent! After growing beyond 50,000 installations, we're ready to chart our own course. Our heartfelt
-				thanks to everyone in the Neuron Link CA community who helped us reach this milestone.
+				Our biggest update yet is here - we're officially changing our name from Neuron Link Code Agent to
+				Neuron Link Code Agent! After growing beyond 50,000 installations, we're ready to chart our own course.
+				Our heartfelt thanks to everyone in the Neuron Link CA community who helped us reach this milestone.
 			</p>
 
 			<h3 style={{ margin: "12px 0 8px" }}>Custom Modes: Celebrating Our New Identity</h3>
 			<p style={{ margin: "5px 0px" }}>
-				To mark this new chapter, we're introducing the power to shape Neuron Link Code Agent into any role you
-				need! Create specialized personas and create an entire team of agents with deeply customized prompts:
+				To mark this new chapter, we're introducing the power to shape Neuron Link CA into any role you need!
+				Create specialized personas and create an entire team of agents with deeply customized prompts:
 				<ul style={{ margin: "4px 0 6px 20px", padding: 0 }}>
 					<li>QA Engineers who write thorough test cases and catch edge cases</li>
 					<li>Product Managers who excel at user stories and feature prioritization</li>
