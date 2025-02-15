@@ -13,10 +13,10 @@
 <br>
 
 <div align="center">
-<h1>Neuron Link or Neuron Link code agent, Neuron Link CA</h1>
+<h1>Neuron Link or Neuron Link code agent, Neuron Link CA (prev. Roo Cline)</h1>
 
 <a href="https://marketplace.visualstudio.com/items?itemName=NeuronLink.NeuronLink-CA" target="_blank"><img src="https://img.shields.io/badge/Download%20on%20VS%20Marketplace-blue?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="Download on VS Marketplace"></a>
-<a href="https://github.com/NeuronLinkAI/NeuronLink-CA/discussions/categories/feature-requests?discussions_q=is%3Aopen+category%3A%22Feature+Requests%22+sort%3Atop" target="_blank"><img src="https://img.shields.io/badge/Feature%20Requests-yellow?style=for-the-badge" alt="Feature Requests"></a>
+<a href="https://github.com/NeuronLinkAI/NeuronLink-CA/issues" target="_blank"><img src="https://img.shields.io/badge/Feature%20Requests-yellow?style=for-the-badge" alt="Feature Requests"></a>
 <a href="https://marketplace.visualstudio.com/items?itemName=NeuronLink.NeuronLink-CA&ssr=false#review-details" target="_blank"><img src="https://img.shields.io/badge/Rate%20%26%20Review-green?style=for-the-badge" alt="Rate & Review"></a>
 
 </div>
@@ -59,7 +59,11 @@ We've launched a new Discord community! Join us at [https://discord.gg/neuronlin
 - Connect with other Neuron Link or Neuron Link code agent, Neuron Link CA users
 - Stay updated on the latest features
 
-## New in 3.2: Introducing Custom Modes! 🚀
+## New in 3.2: Introducing Custom Modes, plus rebranding from Roo Cline → Neuron Link or Neuron Link code agent, Neuron Link CA! 🚀
+
+### Introducing Neuron Link or Neuron Link code agent, Neuron Link CA
+
+Our biggest update yet is here - we're officially changing our name from Roo Cline to Neuron Link or Neuron Link code agent, Neuron Link CA! After growing beyond 50,000 installations across VS Marketplace and Open VSX, we're ready to chart our own course. Our heartfelt thanks to everyone in the Cline community who helped us reach this milestone.
 
 ### Custom Modes
 
@@ -72,7 +76,7 @@ To mark this new chapter, we're introducing the power to shape Neuron Link or Ne
 
 The best part is that NeuronLink can help you create these new modes! Just type "Create a new mode for <X>" in the chat to get started, and go into the Prompts tab or (carefully) edit the JSON representation to customize the prompt and allowed tools to your liking.
 
-We can't wait to hear more about what you build and how we can continue to evolve the Neuron Link or Neuron Link code agent, Neuron Link CA platform to support you.
+We can't wait to hear more about what you build and how we can continue to evolve the Neuron Link or Neuron Link code agent, Neuron Link CA platform to support you. Please join us in our new https://www.reddit.com/r/RooCode subreddit to share your custom modes and be part of our next chapter. 🚀
 
 ## New in 3.1: Chat Mode Prompt Customization & Prompt Enhancements
 
@@ -88,7 +92,7 @@ The second big feature in this release is a complete revamp of **prompt enhancem
 
 Whether you’re using GPT-4, other APIs, or switching configurations, this gives you total control over how your prompts are optimized.
 
-As always, we’d love to hear your thoughts and ideas! What features do you want to see
+As always, we’d love to hear your thoughts and ideas! What features do you want to see in **v3.2**? Drop by https://www.reddit.com/r/roocline and join the discussion - we're building NeuronLink together. 🚀
 
 ## New in 3.0 - Chat Modes!
 
@@ -223,7 +227,7 @@ Help Neuron Link or Neuron Link code agent, Neuron Link CA focus on the most rel
 Neuron Link or Neuron Link code agent, Neuron Link CA is available on:
 
 - **[VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=NeuronLink.NeuronLink-CA)**
-- **[Open-VSX](https://open-vsx.org/extension/NeuronLink/NeuronLink-CA)**
+- **[Open-VSX](https://open-vsx.org/extension/RooVeterinaryInc/roo-cline)**
 
 1. **Search “Neuron Link or Neuron Link code agent, Neuron Link CA”** in your editor’s Extensions panel to install directly.
 2. Or grab the `.vsix` file from Marketplace / Open-VSX and **drag-and-drop** into your editor.
@@ -250,7 +254,7 @@ Neuron Link or Neuron Link code agent, Neuron Link CA is available on:
     - A `.vsix` file will appear in the `bin/` directory.
 4. **Install** the `.vsix` manually if desired:
     ```bash
-    code --install-extension bin/neuronlink-1.0.1.vsix
+    code --install-extension bin/roo-code-4.0.0.vsix
     ```
 5. **Start the webview (Vite/React app with HMR)**:
     ```bash
@@ -262,6 +266,12 @@ Neuron Link or Neuron Link code agent, Neuron Link CA is available on:
 Changes to the webview will appear immediately. Changes to the core extension will require a restart of the extension host.
 
 We use [changesets](https://github.com/changesets/changesets) for versioning and publishing. Check our `CHANGELOG.md` for release notes.
+
+---
+
+## Disclaimer
+
+**Please note** that Roo Veterinary, Inc does **not** make any representations or warranties regarding any code, models, or other tools provided or made available in connection with Neuron Link or Neuron Link code agent, Neuron Link CA, any associated third-party tools, or any resulting outputs. You assume **all risks** associated with the use of any such tools or outputs; such tools are provided on an **"AS IS"** and **"AS AVAILABLE"** basis. Such risks may include, without limitation, intellectual property infringement, cyber vulnerabilities or attacks, bias, inaccuracies, errors, defects, viruses, downtime, property loss or damage, and/or personal injury. You are solely responsible for your use of any such tools or outputs (including, without limitation, the legality, appropriateness, and results thereof).
 
 ---
 
@@ -278,7 +288,7 @@ We love community contributions! Here’s how to get involved:
 
 ## License
 
-[Apache 2.0 © 2025 Neuron Link Labs](./LICENSE)
+[Apache 2.0 © 2025 Roo Veterinary, Inc.](./LICENSE)
 
 ---
 
