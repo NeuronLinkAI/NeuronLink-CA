@@ -23,16 +23,15 @@ const WelcomeView = () => {
 	return (
 		<div className="flex flex-col min-h-screen px-0 pb-5">
 			<img
-				src="../../assets/icons/neuronlink.png"
+				src="../../../assets/icons/neuronlink.png"
 				alt="Neuron Link Logo"
 				style={{ width: "200px", margin: "0 auto", display: "block" }}
 			/>
 			<h2>Bee Boop! I'm Neuron Link CA, here to help!</h2>
 			<p>
-				If you are new here, we highy recommend you stick with the Gemini 2.0 Pro Exp model to start. We believe
-				it is the most powerful and performant model to date (yes, beating Claud Sonet) for coding. In addition,
-				ITS FREE, within the free tier limits. Got to gemini console,
-				https://aistudio.google.com/prompts/new_chat , click "get API key" paste here, and get coding!
+				If you are new here, we highly recommend starting with the Gemini 2.0 Pro Exp model. We believe it is
+				the most powerful and performant model currently available for coding (even surpassing Claude Sonet).
+				Additionally, it's free within the free tier limits.
 			</p>
 
 			<b>To get started, this extension needs an API provider.</b>
