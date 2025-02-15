@@ -19,27 +19,27 @@ export const registerCommands = (options: RegisterCommandOptions) => {
 
 const getCommandsMap = ({ context, outputChannel, provider }: RegisterCommandOptions) => {
 	return {
-		"roo-cline.plusButtonClicked": async () => {
+		"neuronlink-ca.plusButtonClicked": async () => {
 			await provider.clearTask()
 			await provider.postStateToWebview()
 			await provider.postMessageToWebview({ type: "action", action: "chatButtonClicked" })
 		},
-		"roo-cline.mcpButtonClicked": () => {
+		"neuronlink-ca.mcpButtonClicked": () => {
 			provider.postMessageToWebview({ type: "action", action: "mcpButtonClicked" })
 		},
-		"roo-cline.promptsButtonClicked": () => {
+		"neuronlink-ca.promptsButtonClicked": () => {
 			provider.postMessageToWebview({ type: "action", action: "promptsButtonClicked" })
 		},
-		"roo-cline.popoutButtonClicked": () => openClineInNewTab({ context, outputChannel }),
-		"roo-cline.openInNewTab": () => openClineInNewTab({ context, outputChannel }),
-		"roo-cline.settingsButtonClicked": () => {
+		"neuronlink-ca.popoutButtonClicked": () => openClineInNewTab({ context, outputChannel }),
+		"neuronlink-ca.openInNewTab": () => openClineInNewTab({ context, outputChannel }),
+		"neuronlink-ca.settingsButtonClicked": () => {
 			provider.postMessageToWebview({ type: "action", action: "settingsButtonClicked" })
 		},
-		"roo-cline.historyButtonClicked": () => {
+		"neuronlink-ca.historyButtonClicked": () => {
 			provider.postMessageToWebview({ type: "action", action: "historyButtonClicked" })
 		},
-		"roo-cline.helpButtonClicked": () => {
-			vscode.env.openExternal(vscode.Uri.parse("https://docs.roocode.com"))
+		"neuronlink-ca.helpButtonClicked": () => {
+			vscode.env.openExternal(vscode.Uri.parse("https://docs.neuronlink.ai"))
 		},
 	}
 }
