@@ -2,7 +2,6 @@
   <img src="assets/icons/og-image.png" alt="NeuronLink">
 </div>
 
-<iframe src="animated.svg" width="200" height="200" frameBorder="0"></iframe>
 <div align="center">
   <h2>Join the Neuron Link or Neuron Link code agent, Neuron Link CA Community</h2>
   <p>Connect with developers, contribute ideas, and stay ahead with the latest AI-powered coding tools.</p>
