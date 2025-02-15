@@ -22,19 +22,13 @@ const WelcomeView = () => {
 
 	return (
 		<div className="flex flex-col min-h-screen px-0 pb-5">
-			<img
-				src="../../../../assets/icons/neuronlink.png"
-				alt="Neuron Link Logo"
-				style={{ width: "200px", margin: "0 auto", display: "block" }}
-			/>
 			<h2>Welcome to Neuron Link Code Agent, here to help!</h2>
 			<p>
 				If you are new here, we highly recommend starting with the Gemini 2.0 Pro Exp model. We believe it is
 				the most powerful and performant model currently available for coding (even surpassing Claude Sonet).
-				Additionally, it's free within the free tier limits.
+				Additionally, it's free within the free tier limits. Use the link below to get a free key and get
+				started with the Gemini 2.0 Pro Exp model.
 			</p>
-
-			<b>To get started, this extension needs an API provider.</b>
 
 			<div className="mt-3">
 				<ApiOptions fromWelcomeView />
