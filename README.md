@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/images/neuronlink-label.png" alt="NeuronLink Label">
+  <img src="assets/icons/black_neuronlink.png" alt="NeuronLink">
 </div>
 
 <iframe src="animated.svg" width="200" height="200" frameBorder="0"></iframe>
