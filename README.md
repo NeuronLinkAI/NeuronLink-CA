@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/icons/black_neuronlink.png" alt="NeuronLink">
+  <img src="assets/icons/og-image.png" alt="NeuronLink">
 </div>
 
 <div align="center">
