@@ -3,7 +3,7 @@
 	"displayName": "Neuron Link",
 	"description": "Interconnected AI Instances, Powered by Blockchain and Agent-Based Reasoning, Shaping a Scalable Route to ASI.",
 	"publisher": "NeuronLink",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"icon": "assets/icons/neuronlink.png",
 	"galleryBanner": {
 		"color": "#617A91",
@@ -13,7 +13,7 @@
 		"vscode": "^1.84.0"
 	},
 	"author": {
-		"name": "Roo Vet"
+		"name": "Neuron Link"
 	},
 	"repository": {
 		"type": "git",
@@ -40,9 +40,7 @@
 		"chatgpt",
 		"sonnet",
 		"ai",
-		"llama",
-		"roo code",
-		"roocode"
+		"llama"
 	],
 	"activationEvents": [
 		"onLanguage",
