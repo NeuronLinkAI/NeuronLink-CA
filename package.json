@@ -378,6 +378,9 @@
 		"ts-jest": "^29.2.5",
 		"typescript": "^5.4.5"
 	},
+	"workspaces": [
+		"webview-ui"
+	],
 	"lint-staged": {
 		"*.{js,jsx,ts,tsx,json,css,md}": [
 			"prettier --write"
