@@ -3,15 +3,21 @@
 </div>
 
 <div align="center">
-  <h2>Join the Neuron Link or Neuron Link code agent, Neuron Link CA Community</h2>
-  <p>Connect with developers, contribute ideas, and stay ahead with the latest AI-powered coding tools.</p>
+  <h2>Neuron Link Code Agent</h2>
+  <p>Interconnected AI Instances, Powered by Blockchain and Agent-Based Reasoning, Shaping a Scalable Route to ASI.
+</p>
   
   <a href="https://discord.gg/neuronlink" target="_blank"><img src="https://img.shields.io/badge/Join%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Join Discord" height="60"></a>
   
 </div>
 
 <div align="center">
-<h1>Neuron Link Code Agent</h1>
+
+=======
+
+<h1>Neuron Link Code Agent Preview</h1>
+
+
 
 <a href="https://marketplace.visualstudio.com/items?itemName=NeuronLink.NeuronLink-CA" target="_blank"><img src="https://img.shields.io/badge/Download%20on%20VS%20Marketplace-blue?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="Download on VS Marketplace"></a>
 <a href="https://github.com/NeuronLinkAI/NeuronLink-CA/issues" target="_blank"><img src="https://img.shields.io/badge/Feature%20Requests-yellow?style=for-the-badge" alt="Feature Requests"></a>
@@ -19,7 +25,9 @@
 
 </div>
 
+
 **Neuron Link** is an AI-powered **autonomous coding agent** that lives in your editor. It can:
+
 
 - Communicate in natural language
 - Read and write files directly in your workspace
@@ -64,7 +72,7 @@ Neuron Link or Neuron Link code agent, Neuron Link CA is available on:
     - A `.vsix` file will appear in the `bin/` directory.
 4. **Install** the `.vsix` manually if desired:
     ```bash
-    code --install-extension bin/neuronlink-1.0.0.vsix
+   code --install-extension bin/neuronlink-1.0.0.vsix
     ```
 5. **Start the webview (Vite/React app with HMR)**:
     ```bash
@@ -86,14 +94,26 @@ We love community contributions! Here’s how to get involved:
 1. **Check Issues & Requests**: See [open issues](https://github.com/NeuronLinkAI/NeuronLink-CA/issues) or [feature requests](https://github.com/NeuronLinkAI/NeuronLink-CA/discussions/categories/feature-requests).
 2. **Fork & branch** off `main`.
 3. **Submit a Pull Request** once your feature or fix is ready.
+
 4. **Join** our [Discord](https://discord.gg/neuronlink) for feedback, tips, and announcements.
+
 
 ---
 
 ## License
+
 
 [Apache 2.0 © 2025 Neuron Link Labs.](./LICENSE)
 
 ---
 
 **Enjoy Neuron Link** Whether you keep it on a short leash or let it roam autonomously, we can’t wait to see what you build. If you have questions or feature ideas, drop by our [Discord](https://discord.gg/neuronlink). Happy coding!
+=======
+
+[Apache 2.0 © 2025 Neuron Link Labs](./LICENSE)
+
+---
+
+**Enjoy Neuron Link or Neuron Link code agent, Neuron Link CA!** Whether you keep it on a short leash or let it roam autonomously, we can’t wait to see what you build. If you have questions or feature ideas, drop by our [Discord](https://discord.gg/neuronlink). Happy coding!
+
+
