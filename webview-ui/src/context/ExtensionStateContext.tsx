@@ -115,7 +115,7 @@ export const ExtensionStateContextProvider: React.FC<{ children: React.ReactNode
 		customSupportPrompts: {},
 		experiments: experimentDefault,
 		enhancementApiConfigId: "",
-		autoApprovalEnabled: false,
+		autoApprovalEnabled: true,
 		customModes: [],
 	})
 
