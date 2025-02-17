@@ -873,7 +873,9 @@ export class Cline {
 		if (mcpEnabled ?? true) {
 			mcpHub = this.providerRef.deref()?.getMcpHub()
 			if (!mcpHub) {
-				throw new Error("MCP hub not available")
+				throw new Error(
+					"MCP hub not available. Please try restarting Visual Studio Code. Let us know if issue persists.",
+				)
 			}
 			// Wait for MCP servers to be connected before generating system prompt
 			await pWaitFor(() => mcpHub!.isConnecting !== true, { timeout: 10_000 }).catch(() => {

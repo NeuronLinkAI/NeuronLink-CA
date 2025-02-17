@@ -772,7 +772,8 @@ const SettingsView = ({ onDone }: SettingsViewProps) => {
 							marginTop: "5px",
 							color: "var(--vscode-descriptionForeground)",
 						}}>
-						This will reset all global state and secret storage in the extension.
+						This will reset all global state and secret storage in the extension. If you have any questions
+						or feedback, feel free to open an issue at https://github.com/NeuronLinkAI/NeuronLink-CA/issues
 					</p>
 
 					<VSCodeButton
